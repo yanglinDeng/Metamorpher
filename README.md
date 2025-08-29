@@ -45,7 +45,7 @@ weight volume student network, scaling the model size by a factor of 2 to 5 orde
 
 ## 🚀 Quick Start
 ### 1. 📥 Clone
-git clone https://github.com/yanglin/metamorpher.git
+git clone https://github.com/yanglinDeng/Metamorpher
 cd Metamorpher
 
 ### 2.🛠️ Environment
