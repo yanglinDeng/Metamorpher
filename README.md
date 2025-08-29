@@ -55,7 +55,6 @@ cd Metamorpher
 ### 2.🛠️ Environment
 
 ```bash
-#
 conda create -n metamorpher python=3.7.3
 conda activate metamorpher
 pip install -r requirements.txt
@@ -64,7 +63,6 @@ pip install -r requirements.txt
 ### 3.🏆 Performance Testing of Distilled SOTA Students
 
 ```bash
-# 
 python test_metamorpher_x.py \
   --test_root test_imgs/LLVIP250 \
   --model_dir weights/apply to sota/students/MetaFusion.model \
@@ -77,7 +75,6 @@ python test_metamorpher_x.py \
 ### 4. 🧪 Performance Testing of MiniFusion and  visualizing intermidiate feature maps
 
 ```bash
-# 
 python test_metamorpher_x.py \
   --test_root test_imgs/LLVIP250 \
   --model_dir weights/MetaMorph_MuF_joint/MetaMorph_MuF_joint.model \
@@ -87,8 +84,8 @@ python test_metamorpher_x.py \
   --num_imgs 250 \
 ```
 ### 5. ⚡ Performance Testing of MiniGFilter
+
 ```bash
-# 
 python test_metamorpher_joint_gabor.py \
   --test_root test_imgs/LLVIP250 \
   --model_dir weights/MetaMorph_MuF_joint_gabor/MetaMorph_MuF_joint_gabor.model \
