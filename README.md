@@ -45,14 +45,16 @@ weight volume student network, scaling the model size by a factor of 2 to 5 orde
 
 ## 🚀 Quick Start
 ### 1. 📥 Clone
+```bash
 git clone https://github.com/yanglinDeng/Metamorpher
 cd Metamorpher
-
+```
 ### 2.🛠️ Environment
+```bash
 conda create -n metamorpher python=3.7.3
 conda activate metamorpher
 pip install -r requirements.txt
-
+```
 
 ### 3.🏆 Performance Testing of Distilled SOTA Students
 
