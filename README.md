@@ -11,7 +11,12 @@ Metamorpher proposes a **general distillation framework** that which can distil 
 weight volume student network, scaling the model size by a factor of 2 to 5 orders of magnitude.
 
 ![Motivation](imgs/motivation.png)  
-*Figure 1 – Motivation: compress heavy teachers into tiny students that run in real-time on edge devices.*
+*Figure 1 – Overview of our contributions. (a) A comparison of the Metamorph-X (little baby) compressed by applying Metamorpher in conjunction with any
+existing MMIF method (sturdy adult) in terms of model performance (both quantitative and qualitative). Pursuing performance, existing methods usually
+sacrifice computational efficiency. Remarkably, our super lightweight method is not only extremely computationally efficient, but is capable of improving
+performance as well. (b) A functional analysis of the 113 parameters in our MetaMorph-MuFjoint network. (c) The forward propagation process of the
+MetaMorph-MuFjoint
+gabor and the principle of parameter transformation.*
 
 ---
 
