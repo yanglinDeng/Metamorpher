@@ -91,21 +91,21 @@ python test_metamorpher_joint_gabor.py \
 ```
 
 📁 File Tree
+<pre>
 metamorpher/
-├── imgs/              
-├── weights/                 # pre-trained model checkpoints
+├── imgs/
+├── weights/                      # pre-trained checkpoints
 │   ├── apply to sota/
-│   │   ├──teachers          # 7 SOTA buffer-alignment teacher checkpoints
-│   │   └──students          # 7 SOTA super-lightweight student checkpoints
-│   ├── MiniFusion/         # MiniFusion checkpoints
-│   └── MiniGFilter/        # MiniGFilter checkpoints
-├── test_imgs/          # IR/VI samples
-├── outputs/              # auto-generated outputs
-│   ├── apply to sota/
-│   │   ├──teacher          # 7 SOTA buffer-alignment teacher checkpoints
-│   │   └──student          # 7 SOTA super-lightweight student checkpoints
-│   ├── MiniFusion/         # MiniFusion checkpoints
-│   └── MiniGFilter/        # MiniGFilter checkpoints
+│   │   ├── students/             # 7 SOTA super-lightweight student ckpts
+│   ├── MiniFusion/
+│   └── MiniGFilter/
+├── test_imgs/                    # IR/VI samples
+└── outputs/                      # auto-generated outputs
+    ├── apply to sota/
+    │   └── student/
+    ├── MiniFusion/
+    └── MiniGFilter/
+</pre>
 
 ⭐ If this repo helps your research, please give us a star! ⭐
 
