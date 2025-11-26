@@ -9,7 +9,7 @@
 ## 📖 Paper Overview
 Metamorpher proposes a **general distillation framework** which can distil arbitrary image fusion methods into an effective but super lightweight volume student network, scaling the model size by a factor of 2 to 5 orders of magnitude.
 
-![Motivation](imgs/motivation.png)  
+![Motivation](imgs/motivation7.png)  
 *Figure 1 – Overview of our contributions. (a) A comparison of the Metamorph-X (little baby) compressed by applying Metamorpher in conjunction with any
 existing MMIF method (sturdy adult) in terms of model performance (both quantitative and qualitative). Pursuing performance, existing methods usually
 sacrifice computational efficiency. Remarkably, our super lightweight method is not only extremely computationally efficient, but is capable of improving
