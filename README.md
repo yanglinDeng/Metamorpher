@@ -26,7 +26,7 @@ gabor and the principle of parameter transformation.*
 | Method | Checkpoint                                                                                                                                        | Volume<br>(KB)&uarr; | SD&uarr; | SCD&uarr; | VIF&uarr; | Qabf&uarr; | SSIM&uarr; | CC&uarr; |
 | :--- |:--------------------------------------------------------------------------------------------------------------------------------------------------| ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | **MetaFusion** (SOTA) | [MetaFusion code]( https://github.com/wdzhao123/MetaFusion)                                                     | 3170.76 | 39.64 | 1.50 | 0.71 | 0.48 | 0.78 | 0.60 |
-| **MetaMorph-MetaFusion**| [MetaMorph-MetaFusion.model](https://github.com/yanglinDeng/Metamorpher/blob/main/weights/apply%20to%20sota/students/MetaFusion/MetaFusion.model) | 0.44 | 36.90 | 1.65 | 0.85 | 0.59 | 0.98 | 0.62 |
+| **MetaMorph-MetaFusion**| [MetaMorph-MetaFusion.model](https://github.com/yanglinDeng/Metamorpher/blob/main/weights/apply%20to%20sota/students/MetaFusion/e100.model) | 0.44 | 36.90 | 1.65 | 0.85 | 0.59 | 0.98 | 0.62 |
 | **TextFusion** (SOTA) | [TextFusion code](  https://github.com/AWCXV/TextFusion)      | 288.51 | 38.02 | 1.43 | 0.72 | 0.52 | 0.76 | 0.59 |
 | **MetaMorph-TextFusion** | [MetaMorph-TextFusion.model](https://github.com/yanglinDeng/Metamorpher/blob/main/weights/apply%20to%20sota/students/TextFusion/TextFusion.model) | 0.44 | 38.07 | 1.68 | 0.87 | 0.59 | 0.98 | 0.62 |
 | **CrossFuse** (SOTA) | [CrossFuse code](https://github.com/hli1221/CrossFuse)      | 10005 | 40.30 | 1.49 | 0.82 | 0.57 | 0.73 | 0.58 |
